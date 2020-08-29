@@ -23,9 +23,6 @@ services:
       default:
       reaction:
       web:
-    ports:
-      - "4080:4080"
-      - "9231:9229"
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.admin.entrypoints=http"
