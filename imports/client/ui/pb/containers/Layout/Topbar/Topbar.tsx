@@ -25,11 +25,12 @@ import {
   CloseButton,
   DrawerWrapper,
 } from './Topbar.style';
-import Logoimage from '../../../assets/image/PickBazar.png';
-import UserImage from '../../../assets/image/user.jpg';
+const Logoimage = 'https://craflo.com/_next/static/images/logo-5cd5b6ed58ed0a1cbb53f9c69e1ba563.png';
+const UserImage =  'https://avatars3.githubusercontent.com/u/13654949';
 import { useDrawerDispatch } from '../../../context/DrawerContext';
 import Drawer, { ANCHOR } from '../../../components/Drawer/Drawer';
 import Sidebar from '../Sidebar/Sidebar';
+
 
 const data = [
   {

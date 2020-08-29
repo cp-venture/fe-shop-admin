@@ -1,5 +1,5 @@
 import React from "react";
-import NotFoundImage from "./not-found.svg";
+const NotFoundImage = "./not-found.svg";
 import {
   NoResultWrapper,
   ImageWrapper,

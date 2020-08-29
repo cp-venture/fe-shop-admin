@@ -1,4 +1,3 @@
-
 FROM reactioncommerce/meteor:1.10.2-v1
 
 # hadolint ignore=DL3002

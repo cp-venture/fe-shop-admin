@@ -12,8 +12,7 @@ import {
 import { Wrapper, FormWrapper, LogoImage, LogoWrapper } from './Login.style';
 import Input from '../../components/Input/Input';
 import Button from '../../components/Button/Button';
-import Logoimage from '../../assets/image/PickBazar.png';
-
+const Logoimage = 'https://craflo.com/_next/static/images/logo-5cd5b6ed58ed0a1cbb53f9c69e1ba563.png';
 const initialValues = {
   username: '',
   password: '',

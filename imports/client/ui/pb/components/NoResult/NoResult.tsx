@@ -1,5 +1,5 @@
 import React from "react";
-import NoResultSvg from "./no-result.svg";
+const NoResultSvg = "./no-result.svg";
 import { NoResultWrapper, ImageWrapper, ButtonWrapper } from "./NoResult.style";
 import Button from "../Button/Button";
 // import { ArrowPrev } from '../AllSvgIcon';

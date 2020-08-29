@@ -71,7 +71,7 @@ export default {
   darkBlue200: "#c4d3da",
   darkBlue300: "#135471",
   darkBlue400: "#103a4d",
-  darkBlue500: "#333f45",
+  darkBlue500: "#fff",
   darkBlue600: "#242c30",
 
   // support colors

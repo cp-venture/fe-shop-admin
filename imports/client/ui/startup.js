@@ -21,7 +21,7 @@ import App from "./layouts/App";
 import getRootNode from "./utils/getRootNode";
 import RouterContext from "./context/RouterContext";
 import snackbarPosition from "./utils/getSnackbarPosition";
-
+import AppPB from './pb'
 const { oidcClientId, oidcUrl, rootUrl } = Meteor.settings.public;
 
 const makeAbsolute = (relativeUrl) => {
@@ -68,7 +68,6 @@ Meteor.startup(() => {
 
   Tracker.autorun((computation) => {
     const primaryShopSub = Meteor.subscribe("PrimaryShop");
-
     if (primaryShopSub.ready()) {
       ReactDOM.render(
         (
@@ -84,7 +83,8 @@ Meteor.startup(() => {
                             <Route>
                               {(routeProps) => (
                                 <RouterContext.Provider value={routeProps}>
-                                  <App />
+                                  <AppPB />
+                                  {console.log(routeProps, "pulkit")}
                                 </RouterContext.Provider>
                               )}
                             </Route>
